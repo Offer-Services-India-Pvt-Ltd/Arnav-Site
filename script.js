@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: description,
             prefill: {
                 name: customerName || '',
-                email: '',
+                email: 'customer@rechargepe.com',
                 contact: customerMobile || ''
             },
             handler: function (response) {
