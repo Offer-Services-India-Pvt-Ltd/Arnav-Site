@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
             key: RAZORPAY_KEY_ID,
             amount: amount * 100, // Amount in paise (₹1 = 100 paise)
             currency: 'INR',
-            name: 'Arnav Web Studio',
+            name: 'Offer Web Studio',
             description: description,
             prefill: {
                 name: customerName || '',
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.appendChild(infoBox);
         }
 
-        infoBox.innerHTML = 'xxx';
+        infoBox.innerHTML = 'rzp_live_SjBvSG9FwiDi2t';
         infoBox.classList.add('show');
 
         // Hide after 1 second
@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            alert('Thank you for your message! Arnav Web Studio will get back to you soon.');
+            alert('Thank you for your message! Offer Web Studio will get back to you soon.');
             contactForm.reset();
         });
     }
