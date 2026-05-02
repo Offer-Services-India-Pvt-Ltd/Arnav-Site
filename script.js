@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelector('.nav-links');
 
     // Razorpay Configuration
-    const RAZORPAY_KEY_ID = 'xxx';
+    const RAZORPAY_KEY_ID = 'rzp_live_SjBvSG9FwiDi2t';
     
     // Store pending payment info
     let pendingPayment = {
